@@ -1,0 +1,8 @@
+2879. Display the First Three Rows
+
+
+import pandas as pd
+
+def selectFirstRows(employees_df: pd.DataFrame) -> pd.DataFrame:
+    # Select and return the first three rows of the DataFrame
+    return employees_df.head(3)
